@@ -22,7 +22,7 @@ A Java Servlets/JSP/MySQL online voting project with separate voter and Election
 
 ## Security status
 
-This project is suitable for a local college demonstration. It is **not** approved or secure enough for a real government election.
+This project is suitable for a local enviromental demonstration. It is **not** approved or secure enough for a real government election.
 
 Do not treat format-based voter ID/PAN checks or the demo DigiLocker configuration as authoritative identity verification. Real deployment requires an approved identity provider and independent election security review.
 
@@ -310,14 +310,28 @@ Use OBS Studio or your desktop's screen recorder. Show only fictional demo
 data; do not show database passwords or environment files.
 
 1. Open `http://localhost:7690/voter-system/register.jsp`.
+
+<img width="1141" height="798" alt="ovs01" src="https://github.com/user-attachments/assets/7ca2367e-375f-4f38-b01b-20203470dc90" />
+
+<img width="1146" height="924" alt="ovs02" src="https://github.com/user-attachments/assets/1baa7034-ade4-46ea-a862-eabc350215a5" />
+  
 2. Register **Demo Voter 3** with voter-card ID `VTR1000003` and Aadhaar
    `470332676732`. Use a new email and a strong demo password.
 3. Sign in as the Election Commission at
    `http://localhost:7690/voter-system/commission/login.jsp` using
    `demo.commission@example.test` / `DemoCommission!2026Strong`, and open the
    election with a future end time.
+
+   <img width="1145" height="928" alt="ovs03" src="https://github.com/user-attachments/assets/e6134f24-eded-494e-b927-7afd937a2451" />
+   <img width="1149" height="919" alt="ovs06" src="https://github.com/user-attachments/assets/c29f4bb7-edde-4b10-8c98-3f8b5fd24027" />
+
 4. Sign in as the newly registered voter, cast one ballot, and show the
    confirmation.
+   
+   <img width="1148" height="923" alt="ovs04" src="https://github.com/user-attachments/assets/a0ee8862-4227-4317-8e3d-c55d631bb71c" />
+
+   <img width="1148" height="916" alt="ovs05" src="https://github.com/user-attachments/assets/e51cc0eb-bcb5-4b0c-87e2-54bedd22f2d2" />
+
 5. Return to the Commission dashboard to show the updated totals, then close
    voting and show the declared result.
 
